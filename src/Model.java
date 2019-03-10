@@ -1,4 +1,4 @@
-import java.awt.Color;
+// Steven Soranno
 
 /**
  * Model: Contains all the state and logic
@@ -34,6 +34,7 @@ public class Model{
 		this.imgHeight = imgHeight;
 	}
 	
+	// Update the location and direction of the orc for the view class
 	public void updateLocationAndDirection() {
 		// Determine if orc should be traveling east or west
     	if(x >= frameWidth-imgWidth) {
